@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Proyecto Sprint</string>
+    <string name="text_user_name">Usuario</string>
+    <string name="hint_user_name">ejemplo@dominio.com</string>
+    <string name="text_password">Contraseña</string>
+    <string name="text_button">Iniciar Sesion</string>
+
+    <string name="text_regpayment">Registro de compras</string>
+    <string name="text_code">Codigo de venta</string>
+    <string name="text_date">Fecha de venta</string>
+    <string name="text_idseller">Cedula del vendedor</string>
+    <string name="text_idclient">Cedula del cliente</string>
+    <string name="text_address">Direccion del cliente</string>
+    <string name="text_width">Ancho de cortina</string>
+    <string name="text_length">Largo de cortina</string>
+    <string name="text_price">Precio de cortina</string>
+    <string name="txt_button">Realizar Abono</string>
+    <string name="txt1">Cortina color arena con velo Blanco</string>
+    <string name="txt2">Cortina color gris para sala-comedor</string>
+    <string name="txt3">Cortina color azul para habitación</string>
+
+    <string name="mis_compras">mis compras</string>
+    <string name="cor1">*Cortina color arena con velo Blanco   *Codigo del Producto: 134253928</string>
+    <string name="cor2">*Cortina color gris para sala-comedor *Codigo del producto: 245367805</string>
+    <string name="cor3">*Cortina color azul para habitación  *Codigo del producto:749034566 </string>
+    <string name="btn1">Nueva Compra</string>
+
+    <string name="text_payment">Registro de abonos</string>
+    <string name="text_codepayment">Codigo de venta</string>
+    <string name="text_datepayment">Fecha</string>
+    <string name="text_amount">Valor abonado</string>
+</resources>

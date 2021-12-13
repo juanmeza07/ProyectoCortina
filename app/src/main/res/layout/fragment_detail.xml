@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageCortina"
+        android:layout_width="174dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="150dp"
+        android:layout_weight="0"
+        android:src="@drawable/cortinas" />
+
+    <TextView
+        android:id="@+id/textViewTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_weight="0"
+        android:gravity="bottom|center"
+        android:text="TextView"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textViewArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:layout_weight="0"
+        android:gravity="bottom|center"
+        android:text="TextView"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textViewPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_weight="0"
+        android:gravity="bottom|center"
+        android:text="TextView"
+        android:textSize="28sp" />
+
+</FrameLayout>

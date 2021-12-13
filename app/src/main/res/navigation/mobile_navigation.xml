@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_fragmento">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.proyectosprint.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_fragmento"
+        android:name="com.example.proyectosprint.Fragmento"
+        android:label="first_recycler"
+        tools:layout="@layout/first_recycler" >
+        <action
+            android:id="@+id/action_nav_fragmento_to_nav_details"
+            app:destination="@id/nav_details" />
+    </fragment>
+    <activity
+        android:id="@+id/nav_ventas"
+        android:name="com.example.proyectosprint.Registro_ventas"
+        android:label="activity_registro_ventas"
+        tools:layout="@layout/activity_registro_ventas" />
+    <activity
+        android:id="@+id/nav_abono"
+        android:name="com.example.proyectosprint.RegistroAbono"
+        android:label="activity_registro_abono"
+        tools:layout="@layout/activity_registro_abono" />
+    <fragment
+        android:id="@+id/nav_details"
+        android:name="com.example.proyectosprint.BlankFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
+    <fragment
+        android:id="@+id/nav_newTask"
+        android:name="com.example.proyectosprint.NewTaskFragment"
+        android:label="fragment_new_task"
+        tools:layout="@layout/fragment_new_task" >
+        <action
+            android:id="@+id/action_nav_newTask_to_nav_fragmento"
+            app:destination="@id/nav_fragmento" />
+    </fragment>
+</navigation>

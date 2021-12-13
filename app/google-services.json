@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "790572495930",
+    "project_id": "cortinas-a5ddc",
+    "storage_bucket": "cortinas-a5ddc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790572495930:android:09571bd11ac7479bb4f103",
+        "android_client_info": {
+          "package_name": "com.example.proyectosprint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790572495930-th6v8cocm8ne5buefnuo2gkc621ufeqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIEk3Mfp9NSC3ADzeCTVA3WX-F4dIlk40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790572495930-th6v8cocm8ne5buefnuo2gkc621ufeqf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
